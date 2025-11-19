@@ -9,8 +9,8 @@
         }
         
         * {
-            margin: auto;
-            padding: auto;
+            margin: inherit;
+            padding: 0;
             box-sizing: border-box;
         }
         
@@ -708,4 +708,5 @@
 @media (max-width:800px){
     .gallery-thumbs img{width:72px;height:48px}
     .project-grid{grid-template-columns:1fr}
+
 }
