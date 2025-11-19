@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cornelius Nyaga | Cybersecurity Specialist & Creative Technologist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo" onclick="showSection('home')">CORNELIUS NYAGA</a>
+            <div class="mobile-menu" onclick="toggleMobileMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+                <li><a href="#" onclick="showSection('services')">Services</a></li>
+                <li><a href="#" onclick="showSection('portfolio')">Portfolio</a></li>
+                <li><a href="#" onclick="showSection('investment')">Invest in My Journey</a></li>
+                <li><a href="#" onclick="showSection('sponsorship-proposal')">Sponsorship Proposal</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   
+
+    <!-- Home Section -->
+    <section id="home" class="page-section active">
+        <div class="hero">
+            <div class="container">
+                <div class="home-grid">
+                    <div class="home-content">
+                        <h1>Securing the Digital World, Designing its Future.</h1>
+                        <p>I am Cornelius Nyaga, a Cybersecurity student and creative technologist at the intersection of logic and artistry. I build secure, user-centric digital experiences, craft compelling visual identities, and capture stories through the lens.</p>
+                        <div class="cta-buttons">
+                            <a href="#" class="btn btn-primary" onclick="showSection('portfolio')">View My Work</a>
+                            <a href="#" class="btn btn-secondary" onclick="showSection('investment')">Support My Journey</a>
+                        </div>
+                    </div>
+
+                    <aside class="home-portfolio-card" aria-label="Portfolio image - C.E.O">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <!-- Replace portfolio-placeholder.jpg with your portfolio image URL or local file -->
+                                <img id="homePortfolioImg" src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/484ea3fba6372d3e47accf703238ae2c~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=99d4cff5&x-expires=1763654400&x-signature=ruFJ%2BbBnrOA7LIvJ1pt6sPALnO8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=maliva" alt="Cornelius Nyaga — C.E.O PIXEL & CODE">
+                            </div>
+                            <div class="portfolio-caption">
+                                <div class="profile-role">C.E.O &nbsp;PIXEL &amp; CODE</div>
+                                <a href="#portfolio" class="btn btn-secondary" onclick="showSection('portfolio')">See Portfolio</a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+             </div>
+         </div>
+     </section>
+
+    <!-- About Section -->
+    <section id="about" class="page-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <p>I am Cornelius Nyaga, a dedicated Cybersecurity student and aspiring creative technologist based in Kiambu, Kenya. My academic foundation is being forged at Kiambu National Polytechnic, where I am immersed in the principles of protecting digital assets and infrastructure.</p>
+                
+                <p>My unique value lies in the fusion of these security disciplines with my creative skills in web development and graphic design. Where other developers see only code, I see potential vulnerabilities; where other designers see only aesthetics, I see user experience and secure data flow. This dual perspective allows me to create digital solutions that are not only beautiful and functional but also inherently robust and trustworthy.</p>
+                
+                <p>I am actively seeking to upgrade my professional toolkit—specifically a high-quality camera and a powerful workstation—to elevate my work to an international standard and deliver greater value to clients and the community. My passion is rooted in using technology as a tool for positive impact, whether it's by building a secure platform for a local business, designing a brand that inspires change, or telling a story that needs to be seen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="page-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Services</h2>
+                <p>I offer a suite of digital creation services, each informed by a core understanding of cybersecurity and modern design principles.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Web Design & Development</h3>
+                    <ul>
+                        <li>Secure, User-Friendly Websites: Development of responsive websites with a focus on clean code, secure authentication practices, and an intuitive user experience.</li>
+                        <li>Front-End Development: Transforming designs into fast, functional, and accessible web interfaces using the latest technologies.</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Graphic Design</h3>
+                    <ul>
+                        <li>Brand Identity & Logos: Creation of memorable logos and comprehensive brand guides that communicate your core values effectively.</li>
+                        <li>Marketing & Social Media Graphics: Design of eye-catching visuals for digital campaigns, social media, and print materials that engage and convert.</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Photography & Videography</h3>
+                    <ul>
+                        <li>Conceptual & Product Photography: Capturing high-quality images for branding, portfolios, and e-commerce.</li>
+                        <li>Event & Documentary Storytelling: Telling compelling stories through video and photo essays that connect with audiences on an emotional level.</li>
+                    </ul>
+                    <p><em>Note: I am currently building my professional equipment arsenal and am ready to discuss projects that can be executed with my current setup.</em></p>
+                </div>
+
+                <!-- New service cards -->
+                <div class="service-card">
+                    <h3>Cybersecurity Consulting</h3>
+                    <ul>
+                        <li>Security Assessments: Basic vulnerability checks, configuration reviews, and actionable remediation plans for small websites and apps.</li>
+                        <li>Secure Architecture Advice: Guidance on authentication, data protection, and least-privilege access for new projects.</li>
+                        <li>Awareness & Training: Short workshops for teams on password hygiene, phishing recognition, and basic secure development practices.</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>UI / UX Design & Prototyping</h3>
+                    <ul>
+                        <li>User Research & Wireframes: Quick discovery, user flows and low-fidelity wireframes to validate ideas early.</li>
+                        <li>High-Fidelity Prototypes: Pixel-ready UI designs and interactive prototypes for usability testing and stakeholder demos.</li>
+                        <li>Accessibility Audits: Ensure designs follow accessibility best practices (contrast, keyboard navigation, ARIA hints).</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>Performance, SEO & Maintenance</h3>
+                    <ul>
+                        <li>Site Performance: Image optimization, lazy-loading, caching strategies and Lighthouse improvements for faster pages.</li>
+                        <li>SEO Basics: Semantic markup, meta tags, structured data and sitemap best practices to improve discoverability.</li>
+                        <li>Ongoing Maintenance: Regular updates, backups, and monitoring to keep websites secure and available.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="page-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Work</h2>
+                <p>A selection of projects that demonstrate my approach to problem-solving through design and technology.</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-project="secure-portal">
+                    <div class="project-image" style="background: #3b82f6;">
+                        Secure Student Portal UI
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure Student Portal UI</h3>
+                        <p>Concept UI for a secure student portal with MFA, role-based dashboard and secure file uploads.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag" data-skill="ui-ux" title="Click for details">UI/UX Design</span>
+                            <span class="skill-tag" data-skill="frontend" title="Click for details">Front-End Development</span>
+                            <span class="skill-tag" data-skill="security" title="Click for details">Cybersecurity Principles</span>
+                        </div>
+
+                        <div class="project-details" hidden>
+                            <h4>Details — Secure Student Portal</h4>
+
+                            <div class="skill-detail" data-skill="ui-ux" hidden>
+                                <h5>UI/UX Design</h5>
+                                <p>Focus: clean student workflows, accessible forms, clear MFA flows, progressive disclosure for security settings and role-based dashboards. Wireframes -> high-fidelity mockups -> responsive prototypes.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="frontend" hidden>
+                                <h5>Front-End Development</h5>
+                                <p>Technologies & Practices:</p>
+                                <ul>
+                                    <li>HTML5 semantic structure; ARIA where necessary for accessibility.</li>
+                                    <li>CSS methodologies (BEM / utility-first) and responsive design using CSS Grid & Flexbox.</li>
+                                    <li>JavaScript: modular code, fetch-based API integration, optimistic UI updates, client-side validation.</li>
+                                    <li>State management for complex dashboards (lightweight stores or framework state).</li>
+                                    <li>Performance: code-splitting, image optimization, lazy-loading resources.</li>
+                                </ul>
+                            </div>
+
+                            <div class="skill-detail" data-skill="security" hidden>
+                                <h5>Cybersecurity Principles</h5>
+                                <p>Core security principles applied to this project:</p>
+                                <ul>
+                                    <li><strong>Least Privilege:</strong> Role-based access controls; users see only allowed data and actions.</li>
+                                    <li><strong>Defense in Depth:</strong> Multiple layers — input validation (client + server), Web Application Firewall, secure session handling.</li>
+                                    <li><strong>Authentication & MFA:</strong> Strong password policies, optional/required multi-factor authentication (TOTP/email/sms), secure account recovery flows.</li>
+                                    <li><strong>Secure Data Handling:</strong> Use HTTPS everywhere, encrypt sensitive data at rest and in transit, avoid storing sensitive tokens in localStorage.</li>
+                                    <li><strong>CSRF & XSS Mitigations:</strong> CSRF tokens for state-changing requests, output encoding, Content Security Policy (CSP).</li>
+                                    <li><strong>Audit & Logging:</strong> Tamper-evident logs, admin audit trails, event alerts for suspicious activity.</li>
+                                    <li><strong>Secure File Uploads:</strong> Validate file types and sizes server-side, store uploads outside webroot, generate scanned previews.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-gallery" data-project="secure-portal-gallery">
+                                <div class="gallery-label">Attach screenshots / mockups</div>
+                                <div class="gallery-thumbs"></div>
+                                <div class="gallery-actions">
+                                    <button class="btn add-photo-btn">Add Photo</button>
+                                    <input class="project-file-input" type="file" accept="image/*" multiple style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-project="afya-brand">
+                    <div class="project-image" style="background: #10b981;">
+                        Brand Identity for 'Afya Mashinani'
+                    </div>
+                    <div class="project-content">
+                        <h3>Brand Identity for 'Afya Mashinani'</h3>
+                        <p>Brand system with logo, color palette, typography, and application mockups for community health outreach.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag" data-skill="branding" title="Click for details">Logo Design & Branding</span>
+                            <span class="skill-tag" data-skill="mockups" title="Click for details">Mockups & Application</span>
+                            <span class="skill-tag" data-skill="adobe" title="Click for details">Adobe Creative Suite</span>
+                        </div>
+
+                        <div class="project-details" hidden>
+                            <h4>Details — Afya Mashinani</h4>
+
+                            <div class="skill-detail" data-skill="branding" hidden>
+                                <h5>Logo & Brand System</h5>
+                                <p>Process: stakeholder workshops → moodboards → sketches → vectorization → color testing → brand guidelines (usage, spacing, wrong-usage examples).</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="mockups" hidden>
+                                <h5>Mockups & Application</h5>
+                                <p>Deliverables include responsive web mockups, poster templates, social media assets and print-ready files. Accessibility and legibility prioritized for community outreach materials.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="adobe" hidden>
+                                <h5>Adobe Creative Suite — Tools & Links</h5>
+                                <p>Recommended legitimate tools used for this work:</p>
+                                <ul>
+                                    <li><a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener">Adobe Illustrator (vector logos)</a></li>
+                                    <li><a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener">Adobe Photoshop (photo editing)</a></li>
+                                    <li><a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener">Adobe XD (prototyping)</a></li>
+                                    <li><a href="https://www.adobe.com/products/premiere.html" target="_blank" rel="noopener">Adobe Premiere Pro (video)</a></li>
+                                    <li><a href="https://www.adobe.com/products/indesign.html" target="_blank" rel="noopener">Adobe InDesign (print layouts)</a></li>
+                                </ul>
+                                <p>Use licensed Adobe apps or verified Creative Cloud plans — avoid unlicensed downloads.</p>
+                            </div>
+
+                            <div class="project-gallery" data-project="afya-brand-gallery">
+                                <div class="gallery-label">Attach logo variations / mockups</div>
+                                <div class="gallery-thumbs"></div>
+                                <div class="gallery-actions">
+                                    <button class="btn add-photo-btn">Add Photo</button>
+                                    <input class="project-file-input" type="file" accept="image/*" multiple style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-project="nairobi-streets">
+                    <div class="project-image" style="background: #f59e0b;">
+                        Nairobi Streets - A Visual Study
+                    </div>
+                    <div class="project-content">
+                        <h3>Nairobi Streets - A Visual Study</h3>
+                        <p>Photography series documenting everyday life, color, and movement on the streets of Nairobi.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag" data-skill="composition" title="Click for details">Composition</span>
+                            <span class="skill-tag" data-skill="storytelling" title="Click for details">Storytelling</span>
+                            <span class="skill-tag" data-skill="mobile" title="Click for details">Mobile Photography</span>
+                        </div>
+
+                        <div class="project-details" hidden>
+                            <h4>Details — Nairobi Streets</h4>
+
+                            <div class="skill-detail" data-skill="composition" hidden>
+                                <h5>Composition</h5>
+                                <p>Composition is the deliberate arrangement of visual elements to create a cohesive image. Key concepts applied:</p>
+                                <ul>
+                                    <li><strong>Rule of Thirds:</strong> Place subjects on grid intersections to create balance.</li>
+                                    <li><strong>Leading Lines:</strong> Use streets, fences, and pathways to guide the viewer’s eye.</li>
+                                    <li><strong>Framing:</strong> Use doorways, windows or arches to frame subjects for depth.</li>
+                                    <li><strong>Foreground / Midground / Background:</strong> Layer elements to create depth and context.</li>
+                                    <li><strong>Negative Space & Minimalism:</strong> Let areas of calm support strong subjects.</li>
+                                </ul>
+                                <p>Applied examples: candid portraits framed by market stalls, motion blur for moving vehicles while keeping a sharp subject.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="storytelling" hidden>
+                                <h5>Storytelling — "An Urban Morning Adventure"</h5>
+                                <p>Story excerpt:</p>
+                                <p>"Dawn broke over Nairobi, the market waking in a slow, familiar rhythm. I followed Amina as she carried crates of mangoes through a maze of alleys — every face told a new beginning. The light hit like a promise; a rickshaw rattled past, scattering dust that turned golden. That single walk captured vendors trading, children in uniforms on their way to school, and the city’s quiet resilience. Each frame in the series aims to be a chapter in that morning's journey."</p>
+                                <p>This narrative approach guides sequencing: opening shots (context), mid-series portraits (character), closing images (reflection).</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="mobile" hidden>
+                                <h5>Mobile Photography</h5>
+                                <p>Tips and workflow for mobile captures: shoot in RAW (where possible), lock exposure, use manual focus for portraits, bracket exposures for backlit scenes, and edit nondestructively in Lightroom Mobile or Snapseed.</p>
+                            </div>
+
+                            <div class="project-gallery" data-project="nairobi-streets-gallery">
+                                <div class="gallery-label">Attach mobile photos / drafts</div>
+                                <div class="gallery-thumbs"></div>
+                                <div class="gallery-actions">
+                                    <button class="btn add-photo-btn">Add Photo</button>
+                                    <input class="project-file-input" type="file" accept="image/*" multiple style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Project 4 -->
+                <div class="project-card" data-project="ecommerce-checkout">
+                    <div class="project-image" style="background: #6366f1;">
+                        Secure E‑Commerce Checkout
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure E‑Commerce Checkout</h3>
+                        <p>Checkout flow designed for conversions while enforcing payment-layer security and PCI-conscious patterns.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag" data-skill="payments">Payment UX</span>
+                            <span class="skill-tag" data-skill="backend">Backend Integration</span>
+                            <span class="skill-tag" data-skill="security">Security Hardening</span>
+                        </div>
+
+                        <div class="project-details" hidden>
+                            <h4>Details — E‑Commerce Checkout</h4>
+
+                            <div class="skill-detail" data-skill="payments" hidden>
+                                <h5>Payment UX</h5>
+                                <p>Design patterns: single-page checkout, inline validation, clear error states, progress indicators, saved payment options with explicit consent, and accessibility for keyboard users.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="backend" hidden>
+                                <h5>Backend Integration</h5>
+                                <p>Best practices: server-side payment tokenization, idempotent order endpoints, retry logic, webhook verification and secure secrets management (KeyVault/env vars).</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="security" hidden>
+                                <h5>Security Hardening</h5>
+                                <ul>
+                                    <li>Use TLS 1.2+, HSTS, secure cookies (SameSite, HttpOnly)</li>
+                                    <li>Never log full card data, use payment provider tokens</li>
+                                    <li>Rate-limiting and fraud-detection hooks</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-gallery" data-project="ecommerce-checkout-gallery">
+                                <div class="gallery-label">Attach checkout mockups / screenshots</div>
+                                <div class="gallery-thumbs"></div>
+                                <div class="gallery-actions">
+                                    <button class="btn add-photo-btn">Add Photo</button>
+                                    <input class="project-file-input" type="file" accept="image/*" multiple style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Project 5 -->
+                <div class="project-card" data-project="restaurant-site">
+                    <div class="project-image" style="background: #ef4444;">
+                        Responsive Restaurant Site
+                    </div>
+                    <div class="project-content">
+                        <h3>Responsive Restaurant Site</h3>
+                        <p>Fast, accessible website for a local restaurant with online menu, reservations and CMS-driven specials.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag" data-skill="frontend">Responsive Front‑End</span>
+                            <span class="skill-tag" data-skill="cms">CMS Integration</span>
+                            <span class="skill-tag" data-skill="seo">Performance & SEO</span>
+                        </div>
+
+                        <div class="project-details" hidden>
+                            <h4>Details — Restaurant Site</h4>
+
+                            <div class="skill-detail" data-skill="frontend" hidden>
+                                <h5>Responsive Front‑End</h5>
+                                <p>Built with mobile-first CSS, accessible navigation, ARIA roles for menus, and optimized images for different viewports.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="cms" hidden>
+                                <h5>CMS Integration</h5>
+                                <p>Headless CMS approach for menu and event updates (e.g., NetlifyCMS / Contentful). Webhooks update static site builds for new specials.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="seo" hidden>
+                                <h5>Performance & SEO</h5>
+                                <p>Techniques: semantic markup, structured data for menu items, preconnect for fonts, image srcset, and Lighthouse-targeted optimizations.</p>
+                            </div>
+
+                            <div class="project-gallery" data-project="restaurant-site-gallery">
+                                <div class="gallery-label">Attach menu / hero images</div>
+                                <div class="gallery-thumbs"></div>
+                                <div class="gallery-actions">
+                                    <button class="btn add-photo-btn">Add Photo</button>
+                                    <input class="project-file-input" type="file" accept="image/*" multiple style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Project 6 -->
+                <div class="project-card" data-project="iot-dashboard">
+                    <div class="project-image" style="background: #06b6d4;">
+                        IoT Device Dashboard
+                    </div>
+                    <div class="project-content">
+                        <h3>IoT Device Dashboard</h3>
+                        <p>Real‑time dashboard for monitoring IoT sensors with alerting, role-based views and data export.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag" data-skill="realtime">Real‑time UX</span>
+                            <span class="skill-tag" data-skill="data">Data Visualisation</span>
+                            <span class="skill-tag" data-skill="auth">Auth & RBAC</span>
+                        </div>
+
+                        <div class="project-details" hidden>
+                            <h4>Details — IoT Dashboard</h4>
+
+                            <div class="skill-detail" data-skill="realtime" hidden>
+                                <h5>Real‑time UX</h5>
+                                <p>WebSocket or SSE feeds with throttling, graceful fallback to polling, and optimistic UI for command responses.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="data" hidden>
+                                <h5>Data Visualisation</h5>
+                                <p>Charts with decimation for large datasets, CSV export, unit annotations, and timezone-aware timestamps.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="auth" hidden>
+                                <h5>Auth & RBAC</h5>
+                                <p>Role-based dashboards, device-scoped API keys, audit logs for command actions and least-privilege device access.</p>
+                            </div>
+
+                            <div class="project-gallery" data-project="iot-dashboard-gallery">
+                                <div class="gallery-label">Attach dashboard screenshots / graphs</div>
+                                <div class="gallery-thumbs"></div>
+                                <div class="gallery-actions">
+                                    <button class="btn add-photo-btn">Add Photo</button>
+                                    <input class="project-file-input" type="file" accept="image/*" multiple style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Project 7 -->
+                <div class="project-card" data-project="youth-campaign">
+                    <div class="project-image" style="background: #8b5cf6;">
+                        Social Campaign — Youth Voices
+                    </div>
+                    <div class="project-content">
+                        <h3>Social Campaign — Youth Voices</h3>
+                        <p>Integrated campaign combining short-form video, micro-sites and social assets to amplify youth-led narratives.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag" data-skill="content">Content Strategy</span>
+                            <span class="skill-tag" data-skill="video">Video Production</span>
+                            <span class="skill-tag" data-skill="analytics">Campaign Analytics</span>
+                        </div>
+
+                        <div class="project-details" hidden>
+                            <h4>Details — Youth Voices</h4>
+
+                            <div class="skill-detail" data-skill="content" hidden>
+                                <h5>Content Strategy</h5>
+                                <p>Audience mapping, core messaging pillars, posting cadence and repurposing strategy to maximise reach.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="video" hidden>
+                                <h5>Video Production</h5>
+                                <p>Short-form vertical edits, subtitles, hooks for first 3 seconds, and repurposing for multiple platforms.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="analytics" hidden>
+                                <h5>Campaign Analytics</h5>
+                                <p>Key metrics: engagement rate, CTR, conversion to micro-site actions; A/B testing creatives and CTAs.</p>
+                            </div>
+
+                            <div class="project-gallery" data-project="youth-campaign-gallery">
+                                <div class="gallery-label">Attach campaign assets / thumbnails</div>
+                                <div class="gallery-thumbs"></div>
+                                <div class="gallery-actions">
+                                    <button class="btn add-photo-btn">Add Photo</button>
+                                    <input class="project-file-input" type="file" accept="image/*" multiple style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Project 8 -->
+                <div class="project-card" data-project="coastal-life">
+                    <div class="project-image" style="background: #0ea5a2;">
+                        Photo Series — Coastal Life
+                    </div>
+                    <div class="project-content">
+                        <h3>Photo Series — Coastal Life</h3>
+                        <p>Documentary photography exploring coastal livelihoods, color palettes and environmental context.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag" data-skill="documentary">Documentary</span>
+                            <span class="skill-tag" data-skill="editing">Photo Editing</span>
+                            <span class="skill-tag" data-skill="exhibit">Exhibit Design</span>
+                        </div>
+
+                        <div class="project-details" hidden>
+                            <h4>Details — Coastal Life</h4>
+
+                            <div class="skill-detail" data-skill="documentary" hidden>
+                                <h5>Documentary</h5>
+                                <p>Ethical storytelling, informed consent for subjects, sequencing images to build narrative arcs and context shots.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="editing" hidden>
+                                <h5>Photo Editing</h5>
+                                <p>Color grading for consistent mood, highlight/shadow recovery, and preparing images for print and web galleries.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="exhibit" hidden>
+                                <h5>Exhibit Design</h5>
+                                <p>Print sizes, framing suggestions, wall sequence and didactic copy to support visitor interpretation.</p>
+                            </div>
+
+                            <div class="project-gallery" data-project="coastal-life-gallery">
+                                <div class="gallery-label">Attach series images</div>
+                                <div class="gallery-thumbs"></div>
+                                <div class="gallery-actions">
+                                    <button class="btn add-photo-btn">Add Photo</button>
+                                    <input class="project-file-input" type="file" accept="image/*" multiple style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Project 9 -->
+                <div class="project-card" data-project="interactive-cv">
+                    <div class="project-image" style="background: #f97316;">
+                        Interactive CV — Web Resume
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive CV — Web Resume</h3>
+                        <p>Progressive web resume with interactive timelines, downloadable PDF export and structured data for discovery.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag" data-skill="pwa">PWA</span>
+                            <span class="skill-tag" data-skill="pdf">PDF Export</span>
+                            <span class="skill-tag" data-skill="seo">Structured Data</span>
+                        </div>
+
+                        <div class="project-details" hidden>
+                            <h4>Details — Interactive CV</h4>
+
+                            <div class="skill-detail" data-skill="pwa" hidden>
+                                <h5>PWA</h5>
+                                <p>Offline-first caching for assets, service worker strategies, installable manifest and fast cold-start UX for recruiters on mobile.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="pdf" hidden>
+                                <h5>PDF Export</h5>
+                                <p>Generate print-ready PDF via client-side print styles or server-side headless rendering; ensure semantic order and accessible text.</p>
+                            </div>
+
+                            <div class="skill-detail" data-skill="seo" hidden>
+                                <h5>Structured Data</h5>
+                                <p>Use JSON-LD Person schema with skills, contact points and works for improved search discoverability and rich results.</p>
+                            </div>
+
+                            <div class="project-gallery" data-project="interactive-cv-gallery">
+                                <div class="gallery-label">Attach screenshots / CV variants</div>
+                                <div class="gallery-thumbs"></div>
+                                <div class="gallery-actions">
+                                    <button class="btn add-photo-btn">Add Photo</button>
+                                    <input class="project-file-input" type="file" accept="image/*" multiple style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Investment Section -->
+    <section id="investment" class="page-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Invest in My Journey</h2>
+                <p>Partner in My Growth, Invest in a Future of Innovation</p>
+            </div>
+            <div class="investment-content">
+                <h3>The Vision</h3>
+                <p>My goal is to become a world-class creative technologist, contributing meaningful work to Kenya's digital landscape and beyond. I am committed to a career that not only serves clients with excellence but also uses technology to solve real-world problems.</p>
+                
+                <h3>The Hinderance</h3>
+                <p>My current progress is bottlenecked by a critical lack of professional equipment. To handle complex development environments, high-fidelity design software, and produce commercial-grade photography, I require a powerful laptop and a high-quality camera. These are not mere tools; they are the gateway to realizing my full potential.</p>
+                
+                <h3>The Ask</h3>
+                <p>I am seeking strategic partners and sponsors who see the value in nurturing emerging talent. Your support in acquiring this equipment is a direct investment in my ability to:</p>
+                <ul>
+                    <li>Produce world-class work for a global audience.</li>
+                    <li>Build a robust portfolio that attracts high-value clients.</li>
+                    <li>Contribute significantly to the tech and creative economy.</li>
+                </ul>
+                
+                <h3>The Promise</h3>
+                <p>This is a partnership. In return for your belief and support, I offer transparency and tangible returns:</p>
+                <ul>
+                    <li><strong>Regular Progress Updates:</strong> You will receive insights into the projects and skills developed with your support.</li>
+                    <li><strong>Attribution & Showcase:</strong> Your company or name will be credited as a key partner on my website and in major project case studies.</li>
+                    <li><strong>A Shared Success Story:</strong> Your investment helps build a success story you can be proud of—the story of how belief in potential can unlock exceptional results.</li>
+                </ul>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="#" class="btn btn-primary" onclick="showSection('sponsorship-proposal')">View Full Proposal</a>
+                    <a href="#" class="btn btn-secondary" onclick="showSection('contact')">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>Interested in collaborating, discussing a project, or learning more about my sponsorship opportunities?</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm" onsubmit="handleContactForm(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" class="form-control" required>
+                            <option value="">Select a subject</option>
+                            <option value="project">Project Inquiry</option>
+                            <option value="sponsorship">Sponsorship Opportunity</option>
+                            <option value="general">General Message</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+                <div id="formResponse" style="margin-top: 1rem; display: none;"></div>
+            </div>
+            <div class="contact-info">
+                <h3>Direct Contact</h3>
+                <p><strong>Email:</strong> <a href="mailto:corinelio224@gmail.com">corinelio224@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+254704440164">+254 704 440 164</a></p>
+                
+                <div style="margin-top: 2rem;">
+                    <h3>Response Time</h3>
+                    <p>I typically respond to all inquiries within 24 hours. For sponsorship opportunities, I'm available to schedule a video call to discuss partnership details.</p>
+                </div>
+                
+                <div style="margin-top: 2rem;">
+                    <h3>Quick Links</h3>
+                    <p><a href="#" onclick="showSection('sponsorship-proposal')">View Sponsorship Proposal</a></p>
+                    <p><a href="#" onclick="showSection('portfolio')">See My Portfolio</a></p>
+                    <p><a href="#" onclick="showSection('services')">Learn About My Services</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sponsorship Proposal Section -->
+    <section id="sponsorship-proposal" class="page-section">
+        <div class="container">
+            <div class="proposal-header">
+                <h1>Strategic Investment Proposal</h1>
+                <h2>Cornelius Nyaga - Cybersecurity Student & Creative Technologist</h2>
+                <p class="tagline">Partnering to Build Kenya's and worldwide Next Digital Leader</p>
+                <div>
+                    <a href="#" class="btn" onclick="window.print()">Print Proposal</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="proposal-section">
+                <h2>Executive Summary</h2>
+                <p>I am seeking strategic partners to invest in my professional development by funding essential equipment that will enable me to deliver world-class digital services. With a unique combination of cybersecurity expertise and creative skills, I am positioned to become a leading digital creator in Kenya's growing tech ecosystem.</p>
+                
+                <div class="highlight">
+                    <p><strong>Investment Goal:</strong> $2,500 for professional equipment to elevate my capabilities and service offerings to international standards.</p>
+                    <p><strong>Expected ROI Timeline:</strong> 6-12 months through increased project capacity and higher-value clients.</p>
+                </div>
+            </div>
+
+            <div class="proposal-section">
+                <h2>The Opportunity</h2>
+                <p>Kenya's and worldwide digital economy is rapidly expanding, with increasing demand for:</p>
+                <ul>
+                    <li>Secure web applications for businesses going digital</li>
+                    <li>Professional branding and design for startups</li>
+                    <li>High-quality visual content for marketing</li>
+                </ul>
+                
+                <p>My unique position as a cybersecurity student with creative skills allows me to address these needs with a security-first approach that most competitors lack.</p>
+                
+                <h3>My Competitive Advantage</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h4>Security-First Mindset</h4>
+                        <p>All digital solutions are built with cybersecurity principles from the ground up.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Multidisciplinary Skills</h4>
+                        <p>Ability to handle projects from concept to completion across multiple domains.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Local Understanding</h4>
+                        <p>Deep knowledge of Kenyan market needs and user behaviors.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proposal-section">
+                <h2>Investment Requirements</h2>
+                <p>My current progress is limited by inadequate equipment. The following tools are essential for delivering professional-grade work:</p>
+                
+                <div class="equipment-list">
+                    <div class="equipment-item">
+                        <h4>Professional Laptop:Apple MacBook Pro 16-inch(M3 pro/M3 Max)</h4>
+                        <p>For development and design work</p>
+                        <div class="price">$1,200</div>
+                    </div>
+                    <div class="equipment-item">
+                        <h4>Camera Kit:Sony A7 IV</h4>
+                        <p>For professional photography</p>
+                        <div class="price">$800</div>
+                    </div>
+                    <div class="equipment-item">
+                        <h4>Software & Accessories</h4>
+                        <p>Licenses and necessary peripherals</p>
+                        <div class="price">$500</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <p><strong>Total Investment Required: $2,500</strong></p>
+                </div>
+            </div>
+
+            <div class="proposal-section">
+                <h2>Sponsorship Tiers & Benefits</h2>
+                <p>I offer multiple partnership levels to accommodate different investment capacities. All sponsors will be recognized on my portfolio and in project case studies.</p>
+                
+                <div class="investment-grid">
+                    <div class="investment-card">
+                        <h3>Tier 1: Equipment Sponsor</h3>
+                        <div class="price">$500 - $999</div>
+                        <ul>
+                            <li>Prominent logo placement on portfolio website</li>
+                            <li>Quarterly progress reports on projects completed</li>
+                            <li>Social media acknowledgment</li>
+                            <li>10% discount on my services for 1 year</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="investment-card">
+                        <h3>Tier 2: Strategic Partner</h3>
+                        <div class="price">$1,000 - $1,999</div>
+                        <ul>
+                            <li>All Tier 1 benefits</li>
+                            <li>Featured case study on first major project</li>
+                            <li>Priority access to my services at 15% discount</li>
+                            <li>Bi-monthly video updates</li>
+                            <li>Mention in press releases and media features</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="investment-card">
+                        <h3>Tier 3: Premier Investor</h3>
+                        <div class="price">$2,000+ (Full Equipment Funding)</div>
+                        <ul>
+                            <li>All Tier 2 benefits</li>
+                            <li>Naming rights for equipment ("Powered by [Your Company]")</li>
+                            <li>Dedicated portfolio section as primary sponsor</li>
+                            <li>First right of refusal on all future projects</li>
+                            <li>Quarterly strategy sessions</li>
+                            <li>Executive summary of business impact</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+    <section id="contact" class="page-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>Interested in collaborating, discussing a project, or learning more about my sponsorship opportunities?</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm" onsubmit="handleContactForm(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" class="form-control" required>
+                            <option value="">Select a subject</option>
+                            <option value="project">Project Inquiry</option>
+                            <option value="sponsorship">Sponsorship Opportunity</option>
+                            <option value="general">General Message</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+                <div id="formResponse" style="margin-top: 1rem; display: none;"></div>
+            </div>
+            <div class="contact-info">
+                <h3>Direct Contact</h3>
+                <p><strong>Email:</strong> <a href="mailto:corinelio224@gmail.com">corinelio224@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+254704440164">+254 704 440 164</a></p>
+                
+                <div style="margin-top: 2rem;">
+                    <h3>Response Time</h3>
+                    <p>I typically respond to all inquiries within 24 hours. For sponsorship opportunities, I'm available to schedule a video call to discuss partnership details.</p>
+                </div>
+                
+                <div style="margin-top: 2rem;">
+                    <h3>Quick Links</h3>
+                    <p><a href="#" onclick="showSection('sponsorship-proposal')">View Sponsorship Proposal</a></p>
+                    <p><a href="#" onclick="showSection('portfolio')">See My Portfolio</a></p>
+                    <p><a href="#" onclick="showSection('services')">Learn About My Services</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                
+                <!-- Sponsorship Package Comparison Table -->
+                <div class="comparison-table">
+                    <h3 style="text-align: center; margin-bottom: 20px;">Sponsorship Benefits Comparison</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 25%;">Benefit</th>
+                                <th style="width: 25%;">Equipment Sponsor<br>($500-$999)</th>
+                                <th style="width: 25%;">Strategic Partner<br>($1,000-$1,999)</th>
+                                <th style="width: 25%;">Premier Investor<br>($2,000+)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Website Recognition</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                                <td>✓<br>(Premium Placement)</td>
+                            </tr>
+                            <tr>
+                                <td>Project Updates</td>
+                                <td>Quarterly Reports</td>
+                                <td>Bi-monthly Video Updates</td>
+                                <td>Quarterly Strategy Sessions</td>
+                            </tr>
+                            <tr>
+                                <td>Service Discounts</td>
+                                <td>10% for 1 year</td>
+                                <td>15% + Priority Access</td>
+                                <td>First Right of Refusal</td>
+                            </tr>
+                            <tr>
+                                <td>Case Study Features</td>
+                                <td>-</td>
+                                <td>Featured in First Project</td>
+                                <td>Dedicated Portfolio Section</td>
+                            </tr>
+                            <tr>
+                                <td>Naming Rights</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Equipment Naming Rights</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="proposal-section">
+                <h2>Projected Impact & ROI</h2>
+                <p>With this investment, I will be equipped to significantly increase my capacity and service quality:</p>
+                
+                <h3>Financial Projections</h3>
+                <ul>
+                    <li><strong>Months 1-3:</strong> Take on 2-3 commercial projects monthly at average $300/project</li>
+                    <li><strong>Months 4-6:</strong> Increase to 4-5 projects monthly at average $400/project</li>
+                    <li><strong>Months 7-12:</strong> Secure 1-2 larger clients at $800-1,200/project</li>
+                </ul>
+                
+                <h3>Non-Financial Returns</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h4>Skills Development</h4>
+                        <p>Ability to master advanced tools and techniques</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Portfolio Growth</h4>
+                        <p>Creation of 10+ high-quality case studies in first year</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Community Impact</h4>
+                        <p>Mentoring 2-3 other students in digital skills annually</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    "Cornelius demonstrates exceptional aptitude for both technical and creative work. His cybersecurity background gives him a unique perspective that most designers lack. With proper equipment, he has the potential to become a leading digital creator in our region."
+                    <div class="testimonial-author">- John Mwangi, IT Lecturer at Kiambu National Polytechnic</div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+    <section id="contact" class="page-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>Interested in collaborating, discussing a project, or learning more about my sponsorship opportunities?</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm" onsubmit="handleContactForm(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" class="form-control" required>
+                            <option value="">Select a subject</option>
+                            <option value="project">Project Inquiry</option>
+                            <option value="sponsorship">Sponsorship Opportunity</option>
+                            <option value="general">General Message</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+                <div id="formResponse" style="margin-top: 1rem; display: none;"></div>
+            </div>
+            <div class="contact-info">
+                <h3>Direct Contact</h3>
+                <p><strong>Email:</strong> <a href="mailto:corinelio224@gmail.com">corinelio224@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+254704440164">+254 704 440 164</a></p>
+                
+                <div style="margin-top: 2rem;">
+                    <h3>Response Time</h3>
+                    <p>I typically respond to all inquiries within 24 hours. For sponsorship opportunities, I'm available to schedule a video call to discuss partnership details.</p>
+                </div>
+                
+                <div style="margin-top: 2rem;">
+                    <h3>Quick Links</h3>
+                    <p><a href="#" onclick="showSection('sponsorship-proposal')">View Sponsorship Proposal</a></p>
+                    <p><a href="#" onclick="showSection('portfolio')">See My Portfolio</a></p>
+                    <p><a href="#" onclick="showSection('services')">Learn About My Services</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+            <!-- Email Template for Sponsorship Outreach -->
+            <div class="proposal-section">
+                <h2>Sponsorship Outreach Email Template</h2>
+                <p>Use this template when reaching out to potential sponsors:</p>
+                
+                <div class="email-template">
+                    <p>To who it may concern,</p>
+                    
+                    <p>I hope this email finds you well. My name is Cornelius Nyaga, a Cybersecurity student and creative technologist based in Kiambu, Kenya.</p>
+                    
+                    <p>I'm reaching out because I'm seeking strategic partners to invest in my professional development. As a multidisciplinary digital creator with skills in web development, graphic design, and photography, I'm positioned to deliver high-value digital services to the growing Kenyan market.</p>
+                    
+                    <p>However, my progress is currently limited by inadequate equipment. I've created a detailed proposal outlining how an investment of $2,500 in professional tools would enable me to:</p>
+                    
+                    <ul>
+                        <li>Deliver world-class web development and design services</li>
+                        <li>Build a professional photography portfolio</li>
+                        <li>Increase my service capacity and quality significantly</li>
+                    </ul>
+                    
+                    <p>In return for sponsorship, I offer multiple recognition and partnership benefits detailed in the attached proposal.</p>
+                    
+                    <p>I would appreciate the opportunity to discuss this further. You can view my portfolio here: [Your Website URL]</p>
+                    
+                    <p>Thank you for your consideration.</p>
+                    
+                    <p>Best regards,<br>
+                    Cornelius Nyaga<br>
+                    Cybersecurity Student & Creative Technologist<br>
+                    Phone: <a href="tel:+254704440164">+254 704 440 164</a><br>
+                    Email: <a href="mailto:corinelio224@gmail.com">corinelio224@gmail.com</a></p>
+                    
+                    <div style="text-align: center; margin-top: 20px;">
+                        <button class="btn" onclick="copyEmailTemplate()">Copy Email Template</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-info-card" id="contact">
+                <h3>Next Steps</h3>
+                <p>I would appreciate the opportunity to discuss this proposal further and explore how we can build a mutually beneficial partnership.</p>
+                
+                <h3>Contact Information</h3>
+                <p><strong>Cornelius Nyaga</strong></p>
+                <p>Cybersecurity Student & Creative Technologist</p>
+                <p><strong>Phone:</strong> <a href="tel:+254704440164">+254 704 440 164</a></p>
+                <p><strong>Email:</strong> <a href="mailto:corinelio224@gmail.com">corinelio224@gmail.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pixel-and-code-7b1995319?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">View profile</a></p>
+                
+                <div style="margin-top: 20px;">
+                    <a href="#" class="btn" onclick="showSection('contact')">Schedule a Meeting</a>
+                    <a href="mailto:corinelio224@gmail.com" class="btn btn-secondary">Send Email</a>
+                </div>
+            </div>
+
+            <div class="proposal-footer">
+                <p>&copy; 2025 CORNELIUS NYAGA. All Rights Reserved.</p>
+                <p>"Investing in talent today builds the innovation leaders of tomorrow."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>Interested in collaborating, discussing a project, or learning more about my sponsorship opportunities?</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm" onsubmit="handleContactForm(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" class="form-control" required>
+                            <option value="">Select a subject</option>
+                            <option value="project">Project Inquiry</option>
+                            <option value="sponsorship">Sponsorship Opportunity</option>
+                            <option value="general">General Message</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+                <div id="formResponse" style="margin-top: 1rem; display: none;"></div>
+            </div>
+            <div class="contact-info">
+                <h3>Direct Contact</h3>
+                <p><strong>Email:</strong> <a href="mailto:corinelio224@gmail.com">corinelio224@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+254704440164">+254 704 440 164</a></p>
+                
+                <div style="margin-top: 2rem;">
+                    <h3>Response Time</h3>
+                    <p>I typically respond to all inquiries within 24 hours. For sponsorship opportunities, I'm available to schedule a video call to discuss partnership details.</p>
+                </div>
+                
+                <div style="margin-top: 2rem;">
+                    <h3>Quick Links</h3>
+                    <p><a href="#" onclick="showSection('sponsorship-proposal')">View Sponsorship Proposal</a></p>
+                    <p><a href="#" onclick="showSection('portfolio')">See My Portfolio</a></p>
+                    <p><a href="#" onclick="showSection('services')">Learn About My Services</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+
+   
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CORNELIUS NYAGA. All Rights Reserved.</p>
+            <p>Cybersecurity Student | Web Developer | Graphic Designer | Photographer</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    </script>
+    </body>
+</html>
