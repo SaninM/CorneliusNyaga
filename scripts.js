@@ -55,7 +55,7 @@
 
 I hope this email finds you well. My name is Cornelius Nyaga, a Cybersecurity student and creative technologist based in Kiambu, Kenya.
 
-I'm reaching out because I'm seeking strategic partners to invest in my professional development. As a multidisciplinary digital creator with skills in web development, graphic design, and photography, I'm positioned to deliver high-value digital services to the growing Kenyan market.
+I'm reaching out because Im seeking strategic partners to invest in my professional development. As a multidisciplinary digital creator with skills in web development, graphic design, and photography, I'm positioned to deliver high-value digital services to the growing Kenyan market.
 
 However, my progress is currently limited by inadequate equipment. I've created a detailed proposal outlining how an investment of $2,500 in professional tools would enable me to:
 
