@@ -46,7 +46,7 @@
         
         .logo {
             font-size: 1.5rem;
-            font-weight: 700;
+            font-weight: 701;
             color: var(--primary);
             text-decoration: none;
         }
@@ -710,3 +710,4 @@
     .project-grid{grid-template-columns:1fr}
 
 }
+
