@@ -42,7 +42,7 @@
             document.getElementById('contactForm').reset();
         }
         
-        // Close mobile menu when clicking on a link
+        // Close mobile menu When clicking on a link
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 document.querySelector('.nav-links').classList.remove('active');
@@ -154,4 +154,5 @@ Portfolio: [Your Website URL]`;
                 }
             });
         });
+
 
